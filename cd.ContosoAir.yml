@@ -45,8 +45,8 @@ steps:
     appType: 'webApp'
     WebAppName: '$(web_prefix)-$(web_site)-$(web_environment)'
     packageForLinux: '$(Pipeline.Workspace)/**/*.zip'
-container:
+#container:
 #- script: |
 #    echo Add other tasks to build, test, and deploy your project.
 #    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+#  displayName: 'Run a multi-line script'
